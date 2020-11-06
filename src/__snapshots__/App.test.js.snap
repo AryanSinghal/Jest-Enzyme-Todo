@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo testing renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="row"
+      >
+        <div
+          className="col-10 mx-auto col-md-8 mt-4"
+        >
+          <h3
+            className="text-capitalize text-center"
+            id="heading"
+          >
+            todo input
+          </h3>
+          <TodoInput
+            editItem={false}
+            handleChange={[Function]}
+            handleSubmit={[Function]}
+            item=""
+          />
+          <TodoList
+            clearList={[Function]}
+            handleDelete={[Function]}
+            handleEdit={[Function]}
+            items={Array []}
+          />
+        </div>
+      </div>,
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col-10 mx-auto col-md-8 mt-4"
+        >
+          <h3
+            className="text-capitalize text-center"
+            id="heading"
+          >
+            todo input
+          </h3>
+          <TodoInput
+            editItem={false}
+            handleChange={[Function]}
+            handleSubmit={[Function]}
+            item=""
+          />
+          <TodoList
+            clearList={[Function]}
+            handleDelete={[Function]}
+            handleEdit={[Function]}
+            items={Array []}
+          />
+        </div>,
+        "className": "row",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="text-capitalize text-center"
+              id="heading"
+            >
+              todo input
+            </h3>,
+            <TodoInput
+              editItem={false}
+              handleChange={[Function]}
+              handleSubmit={[Function]}
+              item=""
+            />,
+            <TodoList
+              clearList={[Function]}
+              handleDelete={[Function]}
+              handleEdit={[Function]}
+              items={Array []}
+            />,
+          ],
+          "className": "col-10 mx-auto col-md-8 mt-4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "todo input",
+              "className": "text-capitalize text-center",
+              "id": "heading",
+            },
+            "ref": null,
+            "rendered": "todo input",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "editItem": false,
+              "handleChange": [Function],
+              "handleSubmit": [Function],
+              "item": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "clearList": [Function],
+              "handleDelete": [Function],
+              "handleEdit": [Function],
+              "items": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        >
+          <div
+            className="col-10 mx-auto col-md-8 mt-4"
+          >
+            <h3
+              className="text-capitalize text-center"
+              id="heading"
+            >
+              todo input
+            </h3>
+            <TodoInput
+              editItem={false}
+              handleChange={[Function]}
+              handleSubmit={[Function]}
+              item=""
+            />
+            <TodoList
+              clearList={[Function]}
+              handleDelete={[Function]}
+              handleEdit={[Function]}
+              items={Array []}
+            />
+          </div>
+        </div>,
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="col-10 mx-auto col-md-8 mt-4"
+          >
+            <h3
+              className="text-capitalize text-center"
+              id="heading"
+            >
+              todo input
+            </h3>
+            <TodoInput
+              editItem={false}
+              handleChange={[Function]}
+              handleSubmit={[Function]}
+              item=""
+            />
+            <TodoList
+              clearList={[Function]}
+              handleDelete={[Function]}
+              handleEdit={[Function]}
+              items={Array []}
+            />
+          </div>,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="text-capitalize text-center"
+                id="heading"
+              >
+                todo input
+              </h3>,
+              <TodoInput
+                editItem={false}
+                handleChange={[Function]}
+                handleSubmit={[Function]}
+                item=""
+              />,
+              <TodoList
+                clearList={[Function]}
+                handleDelete={[Function]}
+                handleEdit={[Function]}
+                items={Array []}
+              />,
+            ],
+            "className": "col-10 mx-auto col-md-8 mt-4",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "todo input",
+                "className": "text-capitalize text-center",
+                "id": "heading",
+              },
+              "ref": null,
+              "rendered": "todo input",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "editItem": false,
+                "handleChange": [Function],
+                "handleSubmit": [Function],
+                "item": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "clearList": [Function],
+                "handleDelete": [Function],
+                "handleEdit": [Function],
+                "items": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
