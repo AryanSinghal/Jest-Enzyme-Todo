@@ -25,7 +25,7 @@ describe('<TodoList />', () => {
   it('input tag in TodoInput', () => {
     const wrapper = shallow(<TodoInput />);
     const input = wrapper.find('input');
-    expect(input.get(0).props.value).toEqual(undefined);
+    expect(input.get(0).props.value).toEqual(undefined); //input.prop('value')
   });
 
   test('Todo Input button with text during edit', () => {
